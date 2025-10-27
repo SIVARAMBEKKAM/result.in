@@ -1,0 +1,132 @@
+.nav_bar{
+    display: flex;
+     padding-left: 50px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.logo{
+    padding:10px;
+}
+.main{
+    background-color:#FFFFFF;
+}  
+
+.nav_items{
+    display: flex;
+    padding-top: 10px;
+    
+
+    
+    margin-left: 500px;
+    gap: 100px;
+    margin-right: 100px;
+cursor: pointer;
+
+
+}
+.option1{font-family: Public Sans;
+font-weight: 900;
+font-style: xx-large;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 21px;
+letter-spacing: 0px;
+
+text-align: center;
+
+cursor: pointer;
+
+
+}
+.option2{
+    font-weight: 900;
+font-style: xx-large;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: center;
+cursor: pointer;
+
+
+}
+.body{ padding-top:20px;
+padding-left: 290px;
+padding-right: 290px;} 
+.main-img{
+    border-radius: 8px;
+}
+.main_content{
+        font-family: Public Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0px;
+
+}
+.main_button{
+    padding-left: 250px;
+    display: flex;   
+    gap: 50px;
+    padding-top:25px;
+
+}
+.button1{
+background: #12A3ED;
+border-radius: 8px;
+width:180px;
+height: 40px; font-weight: 800;
+font-style: x-large;
+font-size: 15px;
+color: #FFFFFF;
+text-align: center;
+padding-top: 1%;
+}
+.button2{
+background: #F0F2F5;
+color: #000000;
+border-radius: 8px;
+width:180px;
+height: 40px; font-weight: 800;
+font-style: x-large;
+font-size: 15px;
+text-align: center;
+padding-top: 1%;
+
+}
+.contact{
+    display: flex;
+    gap: 250px;
+    padding-top: 100px;
+    padding-left: 100px;
+    margin-bottom: 3%;
+}
+.contact1{
+    font-family: Public Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: center;
+
+}
+.footer{
+    font-family: Public Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: center;
+justify-content: center;
+align-items: center;
+margin-left:35%;
+margin-top: 10%;
+
+
+}

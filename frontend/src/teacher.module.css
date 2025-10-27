@@ -1,0 +1,242 @@
+.heading{
+    font-family: Public Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 40px;
+letter-spacing: 0px;
+
+}
+.main{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.inputs{
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.input1{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 448px;
+height: 56px;
+angle: 0 deg;
+opacity: 1;
+border-radius: 8px;
+border-width: 1px;
+margin-top: 10px;
+font-family: Public Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0px;
+
+
+}
+select{
+    margin-top: 10px;
+
+    width: 448px;
+height: 56px;
+angle: 0 deg;
+opacity: 1;
+border-radius: 8px;
+border-width: 1px;
+
+}
+label{
+    font-family: Public Sans;
+font-weight: 800;
+font-style: xx-large;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0px;
+
+}
+.subject{
+    font-family: Public Sans;
+font-weight: 900;
+font-style: Bold;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 23px;
+letter-spacing: 0px;
+margin-top: 15px;
+
+}
+.save{
+    display: flex;justify-content: end;
+    margin-left: 1000px;;
+}
+button{
+    width: 119px ;
+height: 40px;
+min-width: 84px;
+max-width: 480px;
+angle: 0 deg;
+opacity: 1;
+padding-right: 16px;
+padding-left: 16px;
+border-radius: 8px;
+background: #12A3ED;
+font-family: Public Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: center;
+color:white;
+margin-top: 20px;
+margin-bottom: 40px;
+
+}
+.heading_body{
+    display: flex;
+    flex-direction: row;
+    gap:750px;
+
+
+}
+.view_heading{    font-family: Public Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 40px;
+letter-spacing: 0px;
+display: flex;
+justify-content: left;
+
+}
+.view_button{
+    display: flex;
+    justify-content:flex-end;
+margin-top: -25px;
+}
+.main1{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.StudentTable{
+    display: flex;
+    margin-left: 100px;
+    flex-direction: column;
+    gap:25px;
+    
+}
+th{
+    background-color: rgb(237, 231, 231);
+    color: black;font-weight: 600;
+    font-size: x-large;
+}
+td{
+    text-align: center;
+    padding-left:25px ;
+    font-size: large;
+    font-weight: 600;
+}
+.addButton{
+    
+}
+.main_update{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;align-items: center;
+    justify-content: center;
+}
+.input1{/*  align-items: center;
+    justify-content: center; */}
+    .updatebutton{
+         width: 150px ;
+height: 40px;
+min-width: 84px;
+max-width: 480px;
+angle: 0 deg;
+opacity: 1;
+padding-right: 16px;
+padding-left: 16px;
+border-radius: 8px;
+background: #12A3ED;
+font-family: Public Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: center;
+color:white;
+margin-top: 20px;
+margin-bottom: 40px
+    }
+    .editbutton{display: flex;
+         width: 119px ;
+height: 40px;
+min-width: 84px;
+max-width: 480px;
+angle: 0 deg;
+opacity: 1;
+padding-right: 16px;
+padding-left: 16px;
+border-radius: 8px;
+border-color: black;
+background: #12A3ED;
+font-family: Public Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: center;
+color:white;
+margin-top: 20px;
+margin-bottom: 40px;align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    }
+    .editimg{
+        background:white;
+        width: 20px;
+        display: flex;
+        height: 20px;
+        margin-top: 30px;
+    }
+    .editimg>img{
+        background-color: white;
+         width: 20px;
+        height: 20px;
+    }
+.inpute1{ display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;align-items: center;
+    justify-content: center;}
+
+    .inputf1{ display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+
+}
+td{
+    font-size: x-large;
+    font-weight: 600;
+}

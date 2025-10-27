@@ -1,0 +1,151 @@
+*{
+        font-family: Public Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0px;
+
+}
+.main{
+    margin-bottom: 100px;
+}
+.heading{
+padding-left:200px ;
+margin-bottom:50px;
+font-family: Public Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+leading-trim: NONE;
+line-height: 40px;
+padding-top:40px;
+letter-spacing: 0px;
+
+}
+.input1,.input2{
+    width: 350px;
+height: 25px;
+angle: 0 deg;
+opacity: 1;
+padding: 15px;
+border-radius: 8px;
+border-width: 1px;
+border-color: black;
+
+}
+.input{
+    display: flex;
+    gap:100px;
+    padding-left: 205px;
+}
+.arrange{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    column-count: 2;
+}
+.submit{
+    width: 84px;
+height: 40px;
+min-width: 84px;
+max-width: 480px;
+angle: 0 deg;
+opacity: 1;
+padding-right: 16px;
+padding-left: 16px;
+background: #12A3ED;
+margin-top:39px;
+border-radius: 8px;
+margin-top: 55px;
+margin-left: 25px;
+
+}
+.label{
+     font-family: Public Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0px;
+
+
+}
+.newi{
+    display: flex;
+   gap:100px;
+    padding-left: 185px;
+    
+}
+.td{ text-align: center;
+    padding-left:25px ;
+    font-size: large;
+    font-weight: 600;
+margin-left: 50px;}
+    .details{
+        display: flex;
+        margin-top: -15px;
+        gap: 20px;
+            font-size: large;
+            margin-bottom: 15px;background: linear-gradient(135deg, #0078d7, #00b4d8);
+     color:white;
+    font-weight: 600;}
+    .details,h1{
+         font-size: x-large;
+    font-weight: 900;
+     
+    }
+    .table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th {
+  background-color: #6aace2;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e8f0fe;
+  transition: 0.3s;
+}
+
+.td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.4rem;
+  }
+
+  .details h1 {
+    font-size: 1rem;
+  }
+
+  .table {
+    font-size: 0.85rem;
+  }
+}
