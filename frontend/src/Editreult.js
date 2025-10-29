@@ -14,8 +14,8 @@ const Editreslt = () => {
   const fetchResults = async (cls) => {
     try {
       const url = cls
-        ? `http://localhost:8009/api/results/class/${cls}`
-        : "http://localhost:8009/api/results";
+        ? `https://result-in-v5o6-b7z4458ar-sivas-projects-f866c7af.vercel.app/api/results/class/${cls}`
+        : "https://result-in-v5o6-b7z4458ar-sivas-projects-f866c7af.vercel.app/api/results";
 
       const response = await axios.get(url);
       setResults(response.data);

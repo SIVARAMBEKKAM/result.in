@@ -18,7 +18,7 @@ function ViewResult1() {
 
     try {
       const query = `class1=${class1}&roll=${roll}&exam=${exam}`;
-      const res = await fetch(`http://localhost:8009/api/results/search?${query}`);
+      const res = await fetch(`https://result-in-v5o6-b7z4458ar-sivas-projects-f866c7af.vercel.app//api/results/search?${query}`);
       // NOTE: Handle non-200 responses to prevent data being set as null/undefined on error
       if (!res.ok) {
         throw new Error(`HTTP error! status: ${res.status}`);
@@ -55,7 +55,7 @@ function ViewResult1() {
             </div>
  
 <div className={Style1.input1}>
-            <label>Class:</label>
+            <label>Class:</label>git
             <select name="class1" value={class1}                  onChange={(e) => setClass1(e.target.value)}
 >
               <option value="">-- Select Class --</option>

@@ -143,7 +143,7 @@ const Add_delete = () => {
   const submitForm = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:8009/api/user", user);
+      const response = await axios.post("https://result-in-v5o6-b7z4458ar-sivas-projects-f866c7af.vercel.app/api/user", user);
        toast.success(response.data.message);
          e.target.reset();
 

@@ -25,7 +25,7 @@ const UpdateResult = () => {
   useEffect(() => {
     const fetchResult = async () => {
       try {
-        const res = await axios.get(`http://localhost:8009/api/result/${id}`);
+        const res = await axios.get(`https://result-in-v5o6-b7z4458ar-sivas-projects-f866c7af.vercel.app//api/result/${id}`);
         setResult(res.data);
       } catch (err) {
         console.error(err);
@@ -45,7 +45,7 @@ const UpdateResult = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.put(`http://localhost:8009/api/update/result/${id}`, result);
+      const res = await axios.put(`https://result-in-v5o6-b7z4458ar-sivas-projects-f866c7af.vercel.app//api/update/result/${id}`, result);
       toast.success(res.data.message || "Result updated successfully");
       navigate("/editreult"); // go back to result list
     } catch (err) {

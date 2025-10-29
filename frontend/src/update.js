@@ -20,7 +20,7 @@ const UpdateStudent = () => {
   useEffect(() => {
     const fetchStudent = async () => {
       try {
-        const res = await axios.get(`http://localhost:8009/api/user/${id}`);
+        const res = await axios.get(`https://result-in-v5o6-b7z4458ar-sivas-projects-f866c7af.vercel.app/api/user/${id}`);
         // Ensure class1 is string (for select)
         const fetchedStudent = res.data;
         setStudent({
@@ -46,7 +46,7 @@ const UpdateStudent = () => {
     e.preventDefault();
     try {
       const res = await axios.put(
-        `http://localhost:8009/api/update/user/${id}`,
+        `https://result-in-v5o6-b7z4458ar-sivas-projects-f866c7af.vercel.app/api/update/user/${id}`,
         student
       );
       toast.success(res.data.message || "Student updated successfully");

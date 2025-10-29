@@ -124,7 +124,7 @@ const promoteAllClassesHandler = async () => {
 
   try {
     const response = await axios.post(
-      `http://localhost:8009/api/promote/class1/${classFilter}` // <-- class in URL
+      `https://result-in-v5o6-b7z4458ar-sivas-projects-f866c7af.vercel.app//api/promote/class1/${classFilter}` // <-- class in URL
     );
   
     toast.success(response.data.message || "Promotion successful", {
