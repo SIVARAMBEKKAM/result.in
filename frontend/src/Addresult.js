@@ -81,11 +81,13 @@ function Addresult() {
               value={result.exam}
               onChange={handleChange}
             >
-              <option value="">-- Select an exam --</option>
-              <option value="midterm">Midterm Exam</option>
-              <option value="final">Final Exam</option>
-              <option value="quiz">Quiz</option>
-              <option value="practical">Practical Exam</option>
+             <option value="">-- Select an Exam --</option>
+              <option value="FA-1">FA-1</option>
+              <option value="FA-2">FA-2</option>
+              <option value="SA-1">SA-1</option>
+ <option value="FA-3">FA-3</option>
+              <option value="FA-4">FA-4</option>
+              <option value="SA-2">SA-2</option>   
             </select>
           </div>
 

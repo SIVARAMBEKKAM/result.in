@@ -13,12 +13,12 @@ const PORT =8009;
 
 
 mongoose
-  .connect("mongodb://localhost:27017/users")
+.connect("mongodb+srv://siva:Sivaram423@cluster0.jnbtfbu.mongodb.net/user?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => {
     console.log("DB connected successfully.");
-    app.listen(PORT, () => {
+ /*    app.listen(PORT, () => {
       console.log(`Server is running on port :${PORT} `);
-    });
+    }); */
   })
   .catch((error) => console.log(error));
 

@@ -44,7 +44,7 @@ function ViewResult1() {
           <h1 className={Style1.heading}>School Results</h1>
           <div className={Style1.input}>
             <div className={Style1.arrange}>
-              <label className={Style1.label}>Roll no</label>
+              <label>Roll no</label>
               <input
                 className={Style1.input1}
                 type="text"
@@ -77,12 +77,13 @@ function ViewResult1() {
              <div className={Style1.input1}>
                         <label>Exam:</label>
                         <select name="exam" value={exam}                 onChange={(e) => setExam(e.target.value)}
->
-                          <option value="">-- Select an Exam --</option>
-                          <option value="midterm">Midterm</option>
-                          <option value="final">Final</option>
-                          <option value="quiz">Quiz</option>
-                          <option value="practical">Practical</option>
+>  <option value="">-- Select an Exam --</option>
+              <option value="FA-1">FA-1</option>
+              <option value="FA-2">FA-2</option>
+              <option value="SA-1">SA-1</option>
+ <option value="FA-3">FA-3</option>
+              <option value="FA-4">FA-4</option>
+              <option value="SA-2">SA-2</option>   
                         </select>
                       </div>
             <button className={Style1.submit} onClick={handleSubmit}>
