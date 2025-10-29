@@ -37,7 +37,7 @@ function Addresult() {
     }
 
     try {
-      const res = await fetch("https://result-in-v5o6-b7z4458ar-sivas-projects-f866c7af.vercel.app/api/addresult", {
+      const res = await fetch("https://result-in-sand.vercel.app/api/addresult", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(result),

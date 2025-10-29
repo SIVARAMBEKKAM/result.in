@@ -76,8 +76,8 @@ const ViewStudents = () => {
   const fetchStudents = async (cls) => {
     try {
   const url = cls
-      ? `http://localhost:8009/api/users/class1/${cls}` // <-- CORRECT FIX
-      : "http://localhost:8009/api/users";
+      ? `https://result-in-sand.vercel.app/api/users/class1/${cls}` // <-- CORRECT FIX
+      : "https://result-in-sand.vercel.app/api/users";
       const response = await axios.get(url);
       setUsers(response.data);
     } catch (error) {
@@ -94,7 +94,7 @@ const ViewStudents = () => {
   const deleteUser = async (userId) => {
     try {
       const response = await axios.delete(
-        `http://localhost:8009/api/delete/user/${userId}`
+        `https://result-in-sand.vercel.app/api/delete/user/${userId}`
       );
       setUsers((prev) => prev.filter((user) => user._id !== userId));
       toast.success(response.data.message || "User deleted successfully", {
@@ -124,7 +124,7 @@ const promoteAllClassesHandler = async () => {
 
   try {
     const response = await axios.post(
-      `https://result-in-v5o6-b7z4458ar-sivas-projects-f866c7af.vercel.app//api/promote/class1/${classFilter}` // <-- class in URL
+      `https://result-in-sand.vercel.app/api/promote/class1/${classFilter}` // <-- class in URL
     );
   
     toast.success(response.data.message || "Promotion successful", {

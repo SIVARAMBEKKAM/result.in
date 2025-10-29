@@ -18,7 +18,7 @@ function ViewResult1() {
 
     try {
       const query = `class1=${class1}&roll=${roll}&exam=${exam}`;
-      const res = await fetch(`https://result-in-v5o6-b7z4458ar-sivas-projects-f866c7af.vercel.app//api/results/search?${query}`);
+      const res = await fetch(`https://result-in-sand.vercel.app/api/results/search?${query}`);
       // NOTE: Handle non-200 responses to prevent data being set as null/undefined on error
       if (!res.ok) {
         throw new Error(`HTTP error! status: ${res.status}`);
