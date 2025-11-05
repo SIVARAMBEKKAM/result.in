@@ -55,7 +55,7 @@ function ViewResult1() {
             </div>
  
 <div className={Style1.input1}>
-            <label>Class:</label>git
+            <label>Class:</label>
             <select name="class1" value={class1}                  onChange={(e) => setClass1(e.target.value)}
 >
               <option value="">-- Select Class --</option>
